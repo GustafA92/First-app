@@ -8,6 +8,9 @@ Vue.router=router
 import firebase from 'firebase'
 import config from '../config/firebase.js'
 
+//import Faceb from './components/Faceb'
+
+
 Vue.config.productionTip = false
 
 // Initialize Firebase

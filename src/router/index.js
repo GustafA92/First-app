@@ -6,6 +6,10 @@ import Login from '@/components/Login'
 import SignUp from '@/components/SignUp'
 import firebase from 'firebase'
 
+import Faceb from '@/components/Faceb'
+
+
+
 Vue.use(Router)
 
 let router = new Router({
@@ -29,6 +33,11 @@ let router = new Router({
       component:SignUp
     },
     {
+      path: '/Faceb',
+      name: 'Facebook',
+      component: Faceb
+    },
+    {  
       path: '/hello',
       name: 'Hello',
       component: Hello,
